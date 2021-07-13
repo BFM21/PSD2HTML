@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    transform: translateX(-6px);
+}
+
+.header-container{
+    width: 100vw;
+    background-image: url('images/buildings.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 975px;
+}
+
+.header-content{
+    margin: auto;
+    width: 1500px;
+}
+
+.navigation-bar{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    top: 50px;
+}
+
+.title{
+    font-size: 22pt;
+    font-weight: 700;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title span{
+    color: orange;
+}
+
+.menu-item-container{  
+    float: right;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.menu-item{
+    margin-top: 50px;
+    font-size: 12pt;
+    color: #242f51;
+    font-weight: 500;  
+    float: left;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.trial-btn{
+    vertical-align: middle;
+    background-color: #2500f9;
+    text-align: center;
+    border-radius: 30px;
+    width: 175px; 
+}
+
+.trial-btn h3{
+    font-size: 12pt;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+}
+.navigation-bar > .trial-btn{
+    float: right;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+.header-text-container{
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    width: 524px;
+    left: 230px;
+    bottom: 175px;
+    
+}
+
+.header-text-container h1{
+    font-size: 45pt;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #242F51;
+ }
+
+ .header-text-container h4{
+     font-size: 14pt;
+     font-weight: 400;
+     line-height: 1.2;
+     color: #737478;
+ }
+
+ .editors-choice{
+     position: absolute;
+ }
+ 
+ .header-text{
+     position:relative;
+     top: 10px;
+ }
+
+
+.editors-choice p{
+    font-size: 13pt;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #E2EAED;
+    border-radius: 15px;
+    width: 350px;
+    color: #242F51;
+    height: 35px;
+    
+}
+
+.icon-container{
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 35px;
+    color: white;
+    background-color: #FEAA25;
+    border-radius: 20px;
+}
+
+.material-icons-outlined{
+    font-size: 15pt;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header-text-container > .trial-btn{
+    display: inline-block;
+    width: 175px;
+    vertical-align: middle;
+}
+
+.header-text-container > .trial-btn > h3{
+    font-size: 12pt;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+}
+
+.header-text-container > .video-link{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.header-text-container > .video-link > h3{
+    font-size: 12pt;
+    font-weight: 600;
+    vertical-align: middle;
+    color: #3C22F9;
+}
+
+.image-container{
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    left:325px;
+    height: fit-content;
+    top: 50px;
+}
+
+.second-slide-container{
+    margin-top: 50px;
+}
+
+.second-slide-content{
+    margin: auto;
+    width: 1500px;
+}
+
+.companies{
+    text-align: center;
+}
+
+.companies h3{
+    font-size: 12pt;
+    font-weight: 500;
+    color: #242F51;
+}
+
+.companies img{
+    margin-right: 30px;
+    margin-left: 40px;
+    vertical-align: bottom;
+}
+
+.features-image-container{
+    width: fit-content;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.features-text-container{
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.features-text-container h1{
+    font-size: 30pt;
+    font-weight: 600;
+    color: #242F51;
+    width: 300px;
+}
+
+.features-text-container h4{
+    color: #737478;
+    font-weight: 500;
+}
+
+.feature-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature-icon img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature-description{
+    margin-left: 15px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+
+#performance{
+    color: #f55767;
+}
+
+#prototyping{
+    color:#2563ff;
+}
+
+#vector{
+    color:#40975f;
+}
+
+.feature-description h2{
+    font-size: 16pt;
+    margin-bottom: 0;
+}
+
+.feature-description h4{ 
+    font-weight: 500;
+    color: #737478;
+    margin-top: 0;
+}
+
+.jackpots{
+    text-align: center;
+}
+
+.jackpots-title{
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 450px;
+}
+
+.jackpots-title h1{
+    font-size: 30pt;
+    font-weight: 600;
+    color: #242f51;
+    
+}
+
+.jackpots-verical-line{
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid #b9b9b8;
+    height: 150px;
+}
+
+.jackpots-description{
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 450px;
+}
+
+.jackpots-description h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.advantages{
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+}
+
+.advantage{
+    margin-left:50px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.advantage-description{
+    text-align: left;
+}
+
+.advantage-description h2{
+    font-size: 16pt;
+    margin-bottom: 0;
+}
+
+.advantage-description h4{
+    font-weight: 500;
+    color:#737478;
+    margin-top: 0;
+}
+
+#payouts{
+    color: #f55767;
+}
+
+#network{
+    color: #2563ff;
+}
+
+#rewards{
+    color: #40975f;
+}
+
+.design-information{
+    position: relative;
+    top: 150px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.design-information-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.design-information-text{
+    margin-left: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 425px;
+}
+
+.design-information-text > h1{
+    font-size: 30pt;
+    font-weight: 700;
+    width: 400px;
+    color: #242f51;
+}
+
+.design-information-text > h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.design-information-text > .trial-btn{
+    display: inline-block;
+    width: 175px;
+    vertical-align: middle;
+}
+
+.design-information-text > .trial-btn > h3{
+    font-size: 12pt;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+}
