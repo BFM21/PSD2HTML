@@ -180,11 +180,13 @@ body{
 
 .second-slide-container{
     margin-top: 50px;
+    width: 100vw;
 }
 
 .second-slide-content{
-    margin: auto;
+    margin: 0 auto;
     width: 1500px;
+    height: fit-content;
 }
 
 .companies{
@@ -355,8 +357,7 @@ body{
 }
 
 .design-information{
-    position: relative;
-    top: 150px;
+    margin-top: 150px;
     padding-left: 100px;
     padding-right: 50px;
 }
@@ -375,7 +376,7 @@ body{
 
 .design-information-text > h1{
     font-size: 30pt;
-    font-weight: 700;
+    font-weight: 600;
     width: 400px;
     color: #242f51;
 }
@@ -396,4 +397,201 @@ body{
     font-weight: 700;
     vertical-align: middle;
     color: white;
+}
+
+.third-slide-container{
+    width: 100vw;
+    margin-top: 150px;
+}
+
+.third-slide-content{
+    width: 1500px;
+    margin: 0 auto;
+    
+}
+
+.third-slide-header-text{
+    text-align: center;
+}
+
+.third-slide-header-text h1{
+    font-size: 28pt;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.third-slide-header-text h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.icon-group{
+    margin-top: 50px;
+    padding-left: 225px;
+}
+
+.reason{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px;
+}
+
+.reason-description h2{
+    font-size: 16pt;
+    font-weight: 700;
+    color: #242f51;
+    margin-bottom: 0;
+}
+
+.reason-description h4{
+    font-weight: 500;
+    color: #737478;
+    margin-top: 5px;
+}
+
+.ultimate-features{
+    margin-top: 100px;
+}
+
+.ultimate-features-text{
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width:fit-content;
+    left: 150px;
+}
+
+.ultimate-features-text > .reason{
+    text-align: left;
+}
+
+.ultimate-features-text h1{
+    font-size: 26pt;
+    font-weight: 700;
+    color: #242F51;
+    margin-bottom: 0;
+}
+
+.ultimate-features-text > h4{
+    font-weight: 500;
+    color: #737478;
+    margin-top: 0;
+}
+
+.ultimate-features-text > .trial-btn{
+    display: inline-block;
+    width: 175px;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.ultimate-features-text > .trial-btn > h3{
+    font-size: 12pt;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+}
+
+.ultimate-features-image{
+    position: relative;
+    left: 75px;
+    float:right;
+    margin-right: 0;
+    margin-left: 0;
+    top: 50px;
+}
+
+.price-header{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.price-header h1{
+    font-size: 28pt;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.price-header h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.switch-container{
+    margin-top: 150px;
+}
+
+.switch{
+    user-select: none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 34px;
+    padding: 2px;
+}
+
+.switch input{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+.pay-option{
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+
+.pay-option h3{
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#option-2{
+    left: 50%;
+}
+
+#monthly{
+    color: white;
+    font-weight: 700;
+}
+
+#annually{
+    color:#737478;
+    font-weight: 500;
+}
+
+.slider{
+    border-radius: 34px;
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    background-color: #2500f9;
+    transition: 0.4s linear;
+}
+
+input:checked + .slider{
+    transform: translateX(97%);
+}
+
+input:checked ~ .pay-option > #monthly{
+    color:#737478;
+    font-weight: 500;
+}
+
+input:checked ~ .pay-option > #annually{
+    color:white;
+    font-weight: 700;
 }
