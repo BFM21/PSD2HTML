@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <script type="text/javascript" src="main.js"></script>
-   
 </head>
 <body>
     <!--HOME-->
@@ -105,7 +104,7 @@
                 <div class="jackpots-title">
                     <h1>Smart jackpots that you may love this anytime & anywhere</h1>
                 </div>
-                <div class="jackpots-verical-line"></div>
+                <div class="verical-line"></div>
                 <div class="jackpots-description">
                     <h4>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</h4>
                 </div>
@@ -271,14 +270,106 @@
                 <h1>Get awesome features, without <br> extra charges</h1>
                 <h4>The rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as Facebook.</h4>
             </div>
-            <div class="switch-container">
+            <div class="switch-container" onclick="changePrices()">
                 <div class="switch">
                     <label>
-                        <input type="checkbox">
+                        <input type="checkbox" id="price-option-checkbox">
                         <div class="slider"></div>
                         <div class="pay-option" id="option-1"><h3 id="monthly">Monthly</h3></div>
                         <div class="pay-option" id="option-2"><h3 id="annually">Annually</h3></div>
                     </label>
+                </div>
+            </div>
+
+            <div class="payment-details-container">
+                <div class="payment-details no-border">
+                    <div class="payment-details-header">
+                        <h1 id="price-business">$10</h1><h2 class="time-period">/month</h2>
+                        <h3>Business Class</h3>
+                        <h4>For small teams or office</h4>
+                    </div>
+                    <div class="payment-details-description">
+                        <ul class="payment-details-description-list">
+                            <li class="payment-details-description-list-item"><h4>Drag & Drop Builder</h4></li>
+                            <li class="payment-details-description-list-item"><h4>1,000's of Templates</h4></li>
+                            <li class="payment-details-description-list-item"><h4>Blog Support Tools</h4></li>
+                            <li class="payment-details-description-list-item"><h4>eCommerce Store</h4></li>
+                        </ul>
+                        <div class="trial-btn"><h3>Start free trial</h3></div>
+                    </div>
+                </div>  
+                <div class="payment-details border">
+                    <div class="payment-details-header">
+                        <h1 id="price-pro">$99</h1><h2 class="time-period">/month</h2>
+                        <h3>Pro Master</h3>
+                        <h4>For best opportunities</h4>
+                    </div>
+                    <div class="payment-details-description">
+                        <ul class="payment-details-description-list">
+                            <li class="payment-details-description-list-item"><h4>Drag & Drop Builder</h4></li>
+                            <li class="payment-details-description-list-item"><h4>1,000's of Templates</h4></li>
+                            <li class="payment-details-description-list-item"><h4>Blog Support Tools</h4></li>
+                            <li class="payment-details-description-list-item"><h4>eCommerce Store</h4></li>
+                        </ul>
+                        <div class="trial-btn"><h3>Subscribe now</h3></div>
+                        <h4>Or Start 14 days trial</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MEET CLIENT SATISFACTION-->
+    <div class="fourth-slide-container">
+        <div class="fourth-slide-content">
+            <div class="fourth-slide-image">
+                <img src="images/world_map_people.png">
+            </div>
+
+            <div class="fourth-slide-text">
+                <h1>Meet Client Satisfaction <br> by using product</h1>
+                <h4>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</h4>
+
+                <img src="images/rating.png">
+                <h2>User friendly & Customizable</h2>
+                <h4>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</h4>
+                <div class="slider-and-controlls">
+                    <div class="image-slider-container">
+                        <div class="image-slider" id="slides">
+                            <div class="slide">
+                                <img src="images/profile_picture.png">
+                                <div class="slide-text">
+                                    <h3>John Doe</h3>
+                                    <h4>Description #1</h4>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="images/profile_picture.png">
+                                <div class="slide-text">
+                                    <h3>John Doe</h3>
+                                    <h4>Description #2</h4>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="images/profile_picture.png">
+                                <div class="slide-text">
+                                    <h3>John Doe</h3>
+                                    <h4>Description #3</h4>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <img src="images/profile_picture.png">
+                                <div class="slide-text">
+                                    <h3>John Doe</h3>
+                                    <h4>Description #4</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controlls">
+                        <p id="prevArrow" onclick="prevImage()"><span class="material-icons-outlined">arrow_back</span></p>
+                        <div class="verical-line"></div>
+                        <p id="nextArrow" onclick="nextImage()"><span class="material-icons-outlined">arrow_forward</span></p>
+                    </div>
                 </div>
             </div>
         </div>

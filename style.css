@@ -294,11 +294,14 @@ body{
     
 }
 
-.jackpots-verical-line{
-    margin-left: 50px;
+.verical-line{
     display: inline-block;
     vertical-align: middle;
     border-left: 1px solid #b9b9b8;
+}
+
+.jackpots > .verical-line{
+    margin-left: 50px;
     height: 150px;
 }
 
@@ -531,7 +534,7 @@ body{
     text-align: center;
     width: 300px;
     height: 50px;
-    border: 2px solid grey;
+    border: 2px solid #EBEBEB;
     cursor: pointer;
     border-radius: 34px;
     padding: 2px;
@@ -594,4 +597,215 @@ input:checked ~ .pay-option > #monthly{
 input:checked ~ .pay-option > #annually{
     color:white;
     font-weight: 700;
+}
+
+.payment-details-container{
+    margin-top: 100px;
+    padding-left: 400px;
+}
+
+.payment-details{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px;
+}
+
+.no-border{
+    border-top: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px 6px #F4F7F9, 0 50px 40px 6px #F4F7F9;
+}
+
+.border{
+    padding-top: 70px;
+    border-radius: 15px;
+    border: 2px solid #EBEBEB;
+}
+
+.border > .payment-details-description > h4{
+    text-decoration: none;
+    color: #2500f9;
+}
+
+.payment-details-header{
+    text-align: center;
+    background-image: linear-gradient(white, #F4F7F9);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.payment-details-header h1{
+    font-size: 50pt;
+    display: inline-block;
+    vertical-align: middle;
+    color:#242f51;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.payment-details-header h2{
+    font-size: 14pt;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0px;
+    color: #737478;
+}
+
+.payment-details-header h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #242f51;
+}
+
+.payment-details-header h4{
+    font-weight: 500;
+    margin-top: 0;
+    color: #737478;
+}
+
+.payment-details-description{
+    text-align: center;
+}
+
+.payment-details-description h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.payment-details-description-list{
+   list-style-type: none;
+   padding: 0;
+}
+
+.payment-details-description > .trial-btn{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.payment-details-description > .trial-btn > h3{
+    font-size: 12pt;
+    font-weight: 700;
+    vertical-align: middle;
+    color: white;
+}
+
+.fourth-slide-container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.fourth-slide-content{
+    margin-top: 200px;
+}
+
+.fourth-slide-image{
+    width: fit-content;
+    position: relative;
+    transform: translateX(-35px);
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.fourth-slide-text{
+    width: 600px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.fourth-slide-text > h1{
+    font-size: 30pt;
+    font-weight: 600;
+    color: #242F51;
+}
+
+.fourth-slide-text > h2{
+    color: #242F51;
+}
+
+.fourth-slide-text > h4{
+    text-align: justify;
+    font-weight: 500;
+    color: #737478;
+}
+
+.slider-and-controlls{
+    user-select: none;
+    margin-top: 50px;
+}
+
+.image-slider-container{
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.image-slider{
+    display: flex;
+    width: 500%;
+    transition: 0.5s linear;
+}
+
+.slide{
+    width: 20%;
+}
+
+.slide img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slide > .slide-text{
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slide > .slide-text > h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #242F51;
+}
+
+.slide > .slide-text > h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    color:#737478;
+    font-weight: 500;
+}
+
+.slider-controlls{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.slider-controlls p{
+    cursor: pointer;
+    color: #2500f9;
+    border: 1px solid #b9b9b8;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: #E2EAED;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#prevArrow{
+    color: grey;
+    background-color: white;
+}
+
+.slider-controlls span{
+    margin-top: 13px;
+}
+
+.slider-controlls .verical-line{
+    height: 15px;
 }
