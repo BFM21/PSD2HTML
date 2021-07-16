@@ -56,11 +56,16 @@ body{
 }
 
 .trial-btn{
+    cursor: pointer;
     vertical-align: middle;
     background-color: #2500f9;
     text-align: center;
     border-radius: 30px;
     width: 175px; 
+}
+
+.trial-btn:hover{
+    background-color: #210aa7;
 }
 
 .trial-btn h3{
@@ -167,6 +172,11 @@ body{
     font-weight: 600;
     vertical-align: middle;
     color: #3C22F9;
+    cursor: pointer;
+}
+
+.header-text-container > .video-link > h3:hover{
+    text-decoration: underline;
 }
 
 .image-container{
@@ -629,6 +639,11 @@ input:checked ~ .pay-option > #annually{
 .border > .payment-details-description > h4{
     text-decoration: none;
     color: #2500f9;
+    cursor: pointer;
+}
+
+.border > .payment-details-description > h4:hover{
+    text-decoration: underline;
 }
 
 .payment-details-header{
@@ -697,12 +712,13 @@ input:checked ~ .pay-option > #annually{
 }
 
 .fourth-slide-container{
-    width: 1500px;
-    margin: 0 auto;
+    width: 100vw;
+    margin-top: 200px;
 }
 
 .fourth-slide-content{
-    margin-top: 200px;
+    width: 1500px;
+    margin: 0 auto;
 }
 
 .fourth-slide-image{
@@ -811,4 +827,176 @@ input:checked ~ .pay-option > #annually{
 
 .slider-controlls .verical-line{
     height: 15px;
+}
+
+
+.fifth-slide-container{
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.fifth-slide-content{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.fifth-slide-header-text{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.fifth-slide-header-text h1{
+    font-size: 30pt;
+    font-weight: 600;
+    color: #242f51;
+}
+
+.fifth-slide-header-text h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.questions{
+    margin-top: 100px;
+}
+
+.question{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #E2EAED;
+    margin-bottom: 10px;
+}
+
+.question h2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+    color: #242F51;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s linear;
+}
+
+.answer h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.question:target  .answer{
+    max-height: 500px;
+    text-align: justify;
+    margin-left: 25px;
+    width: 50rem;
+}
+
+.question:target  span{
+    visibility: hidden;
+}
+
+
+.question span{
+    user-select: none;
+    font-size: 26pt;
+    float: right;
+    vertical-align: middle;
+    line-height: 75px;
+    margin-right: 10px;
+    color: #242F51;
+}
+
+.download-app{
+    margin-top: 150px;
+}
+
+.download-app-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-app-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.download-app-text h1{
+    color: #242F51;
+}
+
+.download-app-text h4{
+    font-weight: 500;
+    color: #737478;
+}
+
+.download-app-text #google{
+    width: 225px;
+    height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.download-app-text #apple{
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    transform: translateX(-6px);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100vw;
+    background-color: #09142E;
+}
+
+.footer-content{
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content .title{
+    color: white;
+}
+
+.footer-content .title > span{
+    color: #FEAA25;
+}
+
+.footer-menu{
+    margin: 0 auto;
+}
+
+.footer-menu > .footer-menu-item{
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.footer-content i{
+    color: #273043;
+    font-size: 24pt;
+    margin-left: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.footer-content i:hover{
+    color: white;
+
+}
+
+.footer-content p{
+    margin-top: 50px;
+    font-weight: 600;
+    color: #273043;
 }
